@@ -107,7 +107,7 @@
              - networkmanager
 
       - name: "network-extra"
-        description: "Extra network packages"
+        description: "Packages, which extend the network functionality"
         hidden: false
         selected: false
         critical: true
@@ -172,7 +172,7 @@
         critical: true
         packages:
              - btrfs-progs
-             - dosfstools
+             - dosfstools                                # FAT16 and FAT32
              - ecryptfs-utils
              - exfat-utils
              - f2fs-tools
@@ -187,7 +187,7 @@
         selected: false
         critical: true
         packages:                                        # user can break installation, if calamares tries to set zsh as default shell but zsh is not installed.
-             - manjaro-tools-base
+             - manjaro-tools-base                        # manjaro-chroot
              - zsh
              - acpi
              - haveged
@@ -228,7 +228,7 @@
               - sddm-qt-manjaro-theme
 
       - name: "xdg-user-dirs"
-        description: "Automatically create user directories in your $HOME folder"
+        description: "User directories in $HOME folder"
         selected: false
         hidden: false
         critical: true
@@ -385,12 +385,12 @@
             - manjaro-hello
 
       - name: "manjaro-documentation"
-        description: "Manjaro User Guide"
+        description: "Manjaro user guide"
         selected: false
         hidden: false
         critical: true
         packages:
-            - manjaro-documentation-en
+            - manjaro-documentation
 
       - name: 'manjaro-printer'
         description: 'Printing and printer configuration'

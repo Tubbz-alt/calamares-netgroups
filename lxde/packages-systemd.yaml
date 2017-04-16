@@ -58,7 +58,6 @@
   packages:
         - pacui
         - mhwd-tui
-        - yaourt
         - powertop
         - htop
         - mlocate      

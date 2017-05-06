@@ -108,6 +108,7 @@
         - upower-nosystemd
         - udisks2-elogind
         - accountsservice-elogind
+        - openrc-settingsd
 
   - name: "network"
     description: "Network packages"

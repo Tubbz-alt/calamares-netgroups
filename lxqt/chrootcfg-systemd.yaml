@@ -213,9 +213,7 @@
         critical: true
         packages:
               - xorg-server
-              - xorg-server-utils
               - xorg-twm
-              - xorg-utils
               - xorg-xinit
 
       - name: "displaymanager"
@@ -258,7 +256,6 @@
         packages:
              - lxqt-about
              - lxqt-admin
-             - lxqt-common
              - lxqt-config
              - lxqt-globalkeys
              - lxqt-notificationd

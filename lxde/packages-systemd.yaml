@@ -42,13 +42,14 @@
        - ttf-liberation
        - ttf-droid
 
-- name: 'Extra Themes/Artwork'
-  description: 'Additional themes and backgrounds'
+- name: 'Extra Artwork'
+  description: 'Additional backgrounds'
   selected: true
   hidden: false
   critical: false
   packages:
        - manjaro-wallpapers-17.0
+       - breath-wallpaper
 
 - name: 'Extra Cli Applications'
   description: 'Some useful and popular command line applications'

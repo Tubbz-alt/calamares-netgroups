@@ -43,7 +43,7 @@
        - ttf-droid
 
 - name: 'Extra Artwork'
-  description: 'Additional themes and backgrounds'
+  description: 'Additional backgrounds'
   selected: true
   hidden: false
   critical: false

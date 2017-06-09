@@ -313,6 +313,7 @@
              - pulseaudio-bluetooth
              - pulseaudio-equalizer
              - pulseaudio-jack
+             - libpulse
              - pavucontrol-qt
        
       - name: 'manjaro-settings-manager'
@@ -355,6 +356,7 @@
         critical: true
         packages:
              - xscreensaver
+             - xdg-utils
 
       - name: 'qps'
         description: 'Simple task manager: Shows system resources'

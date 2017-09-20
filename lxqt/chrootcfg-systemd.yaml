@@ -389,6 +389,7 @@
         critical: true
         packages:
             - manjaro-documentation
+            - xdg-utils
 
       - name: 'manjaro-printer'
         description: 'Printing and printer configuration'

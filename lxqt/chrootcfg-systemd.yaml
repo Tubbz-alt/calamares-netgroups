@@ -61,7 +61,7 @@
              - vi
              - which
              - xfsprogs
-             - manjaro-system-ng                         # manjaro-specific							
+             - manjaro-system                            # manjaro-specific							
              - mhwd                                      # manjaro-specific
              - sudo                                      # essential package from 'base-devel' group
 

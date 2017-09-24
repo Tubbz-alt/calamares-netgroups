@@ -269,6 +269,7 @@
              - pcmanfm-qt
              - gvfs
              - qterminal
+             - breeze-icons
              - juffed-qt5
              - octopi
              - octopi-notifier-qt5

@@ -148,6 +148,10 @@
              - make
              - patch
              - pkg-config
+             - git                                       # packages starting here are highly recommended for AUR use
+             - wget
+             - subversion
+             - rsync
              - yaourt
 
       - name: "firmware"

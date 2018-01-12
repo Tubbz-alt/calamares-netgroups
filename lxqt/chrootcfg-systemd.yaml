@@ -61,7 +61,7 @@
              - vi
              - which
              - xfsprogs
-             - manjaro-system                            # manjaro-specific							
+             - manjaro-system                            # manjaro-specific
              - mhwd                                      # manjaro-specific
              - sudo                                      # essential package from 'base-devel' group
 
@@ -112,6 +112,7 @@
         critical: true
         packages:
              - rp-pppoe
+             - networkmanager-dispatcher-ntpd
              - networkmanager-openconnect
              - networkmanager-openvpn
              - networkmanager-pptp
@@ -320,7 +321,7 @@
              - pulseaudio-jack
              - libpulse
              - pavucontrol-qt
-       
+
       - name: 'manjaro-settings-manager'
         description: 'Offers easy driver, kernel, and language settings'
         selected: false
@@ -420,7 +421,7 @@
         critical: true
         packages:
              - lximage-qt
-       
+
       - name: 'cantata'
         description: 'Music player'
         selected: false

@@ -364,15 +364,6 @@
              - xscreensaver
              - xdg-utils
 
-      - name: 'qps'
-        description: 'Simple task manager: Shows system resources'
-        selected: false
-        hidden: false
-        critical: true
-        packages:
-             - qps
-
-
 - name: "programs"
   description: "Common programs"
   hidden: false

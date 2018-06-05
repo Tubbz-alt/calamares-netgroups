@@ -1,3 +1,5 @@
-### What is this yaml stuff?
+This repo has been archived. Our code is now hosted at
 
-* *.yaml files will be used by the calamares netinstall module to load package groups
+https://gitlab.manjaro.org/
+
+See you there!
